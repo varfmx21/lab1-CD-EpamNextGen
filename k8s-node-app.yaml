@@ -19,6 +19,7 @@ spec:
       containers:
       - name: nodejs-app
         image: "devopshint/node-app:latest"
+        imagePullPolicy: Never
         ports:
           - containerPort: 3000
 ---
